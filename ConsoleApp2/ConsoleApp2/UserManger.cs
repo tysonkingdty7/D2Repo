@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Uesr
 {
-  public class UserManger
+    public class UserManger
     {
         private const int V = 1;
         private User[] users;
@@ -14,7 +14,7 @@ namespace ConsoleApp2.Uesr
         {
             users = new User[1]
             {
-            new User(){Id= , Name="Ahmed"}
+            new User(){Id=1,  Name="Ahmed"}
             };
         }
         public User[] Get()
