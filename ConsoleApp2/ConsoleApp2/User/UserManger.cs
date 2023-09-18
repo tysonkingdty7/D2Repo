@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp2.Uesr
-{
+﻿
     public class UserManger
     {
         private const int V = 1;
@@ -22,4 +15,4 @@ namespace ConsoleApp2.Uesr
             return users;
         }
     }
-}
+

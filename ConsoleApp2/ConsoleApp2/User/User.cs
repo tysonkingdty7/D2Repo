@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp2.Uesr
-{
+﻿
     public class User
     {
         public int Id { get; set; }
@@ -17,4 +10,3 @@ namespace ConsoleApp2.Uesr
             return $"{Id}, {Name}";
         }
     }
-}
